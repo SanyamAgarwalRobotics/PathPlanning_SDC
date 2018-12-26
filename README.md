@@ -68,11 +68,15 @@ the path has processed since last time.
 
       Our main goal is to create a path which is free from jerks and acceleration limits. For that the most important point to remember is, the    path should be continuous, means we should try to utilize the previous path points which were provided to simulator.
    
+   
       To ease the calculations we convert the global coordinates to car coordinates, and at the end revert from car to global coordinates.
+   
    
       We choose the different way points, which are atleast 30m apart and then pass those points to spline to fit into a smooth curve.
    
+   
       By using the spline we try to fit approx 50 path points for simulator to follow by providing the spaced points x points and getting corresponding y points.
+   
    
       Once we have this vector of points available then we convert them to global coordinates and pass to simulator.
    
