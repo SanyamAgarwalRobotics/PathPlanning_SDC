@@ -591,7 +591,7 @@ int main() {
             // if already not initiated
             if (tooCloseInLane)
             {
-                ref_v -= 0.5;
+                ref_v -= 0.224;
 
                 if(!laneChangeInitiated)
                 {
@@ -602,7 +602,7 @@ int main() {
             // If not too close then increase speed to reach maximum allowed limit
             else if(ref_v < 49)
             {
-                ref_v += 0.6;
+                ref_v += 0.224;
             }
             // When maximum allowed speed limit reached then keep the lane
             else
