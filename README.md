@@ -16,7 +16,7 @@ Here incident refers to following categories:
     
     At any time, total acceleration of 10 m/s^2 and a jerk of 10 m/s^3 should not be exceeded, which makes it uncomfortable for passenger
 
-[![](http://img.youtube.com/vi/ZxJMrPW7eSc/0.jpg)](http://www.youtube.com/watch?v=ZxJMrPW7eSc "Click here for Output Video")
+[![Click here for Output video](http://img.youtube.com/vi/ZxJMrPW7eSc/0.jpg)](http://www.youtube.com/watch?v=ZxJMrPW7eSc "Click here for Output Video")
 
 ### Rubric Points
 
